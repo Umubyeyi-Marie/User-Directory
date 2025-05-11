@@ -11,6 +11,7 @@ export default function Header() {
       <div className="space-x-4">
         <Link to="/" className="font-bold text-purple-600">Home</Link>
         <Link to="/add-user" className="text-purple-600">Add User</Link>
+    
       </div>
       <button
         onClick={toggleTheme}
